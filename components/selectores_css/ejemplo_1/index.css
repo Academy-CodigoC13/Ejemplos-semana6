@@ -1,0 +1,34 @@
+/* Selector de Tipo: Aplica color a todos los párrafos */
+p {
+  color: blue;
+}
+
+/* Selector de Clase: Aplica negrita a elementos con clase "destacado" */
+.destacado {
+  font-weight: bold;
+}
+
+/* Selector de ID: Aplica fondo gris al elemento con ID "encabezado" */
+#encabezado {
+  background-color: gray;
+}
+
+/* Selector de Atributo: Aplica borde a input de tipo texto */
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+/* Selector de Descendencia: Aplica viñetas cuadradas a elementos de lista anidados */
+ul li {
+  list-style-type: square;
+}
+
+/* Selector de Pseudo-clase: Cambia color de enlace al pasar el cursor sobre él */
+a:hover {
+  color: red;
+}
+
+/* Selector de Pseudo-elemento: Aplica negrita a la primera línea de los párrafos */
+p::first-line {
+  font-weight: bold;
+}
