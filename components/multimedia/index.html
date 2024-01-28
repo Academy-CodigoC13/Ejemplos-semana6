@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet href="index.css" type="text/css" media=screen>
+    <title>Ejemplo HTML5 y CSS3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejemplo HTML5 y CSS3</h1>
+    </header>
+
+    <main>
+        <video id="myVideo" controls>
+            <source src="Código Comuna 13.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <form>
+            <label for="volume">Volumen:</label>
+            <input type="range" id="volume" name="volume" min="0" max="1" step="0.1" value="0.5"
+                onchange="updateVolume()">
+        </form>
+
+        <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/Gx2EHOrCuZU" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ejemplo HTML5 y CSS3</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
