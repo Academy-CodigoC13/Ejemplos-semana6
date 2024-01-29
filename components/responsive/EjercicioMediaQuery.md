@@ -1,5 +1,7 @@
 # Ejercicio Media Queries
 
+### 01 - Basic Layout
+
 * Crear un documento HTML con el nombre index49.html
 
 ## index49.html
@@ -38,3 +40,13 @@
 * Agranda y achicar el browser para ver que pasa
 * Utilizar el developers tools de chrome para ver el sitio como si fuera un celular
 * Cambiar la orientación del celular para ver que pasa!
+
+
+### 02 - Layout I
+Replicar el [siguiente ejemplo](https://ce7du.csb.app/) con breakpoints incluidos.
+
+### 03 - Layout II
+Replicar el [siguiente ejemplo](https://4ntmp.csb.app/) con breakpoints incluidos.
+
+### 04 - Layout III
+Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
